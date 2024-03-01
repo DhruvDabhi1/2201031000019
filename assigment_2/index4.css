@@ -1,0 +1,301 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1280px;
+  height: 1813px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-ddf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 967px;
+  height: 90px;
+  margin: 120px 0 0 134px;
+  z-index: 2;
+}
+.logo {
+  flex-shrink: 0;
+  position: relative;
+  width: 86px;
+  height: 90px;
+  background: url(./assets/images/c78a054dc1fcadfc9c6cf1540e56b4bee9055b4f.png)
+    no-repeat center;
+  background-size: cover;
+  border-radius: 13px;
+}
+.food-review-blog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 299px;
+  height: 70px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  z-index: 1;
+}
+.rectangle {
+  flex-shrink: 0;
+  position: relative;
+  width: 528px;
+  height: 71px;
+  background: #ffa3a3;
+  z-index: 2;
+  border-radius: 27px;
+}
+.button-rectangle {
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  top: 23px;
+  left: 164px;
+
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 3;
+}
+.resturants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 111px;
+  height: 25px;
+  top: 1px;
+  left: 10px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 4;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 96px;
+  height: 25px;
+  top: 23px;
+  left: 41px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 5;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  top: 23px;
+  left: 441px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 7;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 53px;
+  height: 25px;
+  top: 23px;
+  left: 323px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 6;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 958px;
+  height: 74px;
+  margin: 136px 0 0 134px;
+  z-index: 34;
+}
+.resturants-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 180px;
+  height: 74px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 1.63px;
+  z-index: 8;
+}
+.rectangle-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 287px;
+  height: 58px;
+  background: #f8f8f8;
+  z-index: 34;
+  border-radius: 42.5px;
+}
+.vector {
+  position: absolute;
+  width: 9.58%;
+  height: 46.81%;
+  top: 23.4%;
+  left: 81.67%;
+  background: url(./assets/images/aa596ed9-b0bd-4eeb-bd2b-e97e2e28da47.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 35;
+}
+.search-here {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 36.93%;
+  height: 36.21%;
+  top: 33.24%;
+  left: 13.07%;
+  color: #9f9f9f;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.91px;
+  z-index: 36;
+}
+.frame {
+  position: relative;
+  width: 917px;
+  height: 323px;
+  margin: 136px 0 0 160px;
+  background: #f6f6f6;
+  z-index: 9;
+  overflow: hidden;
+  border-radius: 17px;
+}
+.flex-column-c {
+  position: absolute;
+  width: 434px;
+  height: 248px;
+  top: 38px;
+  left: 34px;
+  z-index: 11;
+}
+.big-hamburger-with-double-beef-french-fries {
+  position: absolute;
+  width: 434px;
+  height: 247px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/1f46a65d-9d58-456f-ad0e-b2e9fb7def39.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+  border-radius: 31px;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 434px;
+  height: 247px;
+  top: 1px;
+  left: 0;
+  background: #d9d9d9;
+  z-index: 10;
+  border-radius: 22px;
+}
+.flex-column-e {
+  position: absolute;
+  width: 402px;
+  height: 214px;
+  top: 64px;
+  left: 497px;
+  font-size: 0px;
+  z-index: 14;
+}
+.lorem-ipsum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 402px;
+  height: 152px;
+  margin: 62px 0 0 0;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.91px;
+  z-index: 14;
+}
+.burger-king {
+  display: flex;
+  align-items: center;
