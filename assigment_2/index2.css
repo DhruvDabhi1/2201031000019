@@ -1,0 +1,245 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1911px;
+  height: 1057px;
+  margin: 0 auto;
+}
+.login-1 {
+  position: relative;
+  width: 1873px;
+  height: 1057px;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 505px;
+  height: 77px;
+  margin: 62px 0 0 684px;
+  z-index: 13;
+}
+.balanced-diet {
+  flex-shrink: 0;
+  position: relative;
+  width: 101px;
+  height: 77px;
+  background: url(./assets/images/c78a054dc1fcadfc9c6cf1540e56b4bee9055b4f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+  border-radius: 13px;
+}
+.food-review-blog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 362px;
+  height: 61px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 61px;
+  text-align: left;
+  z-index: 13;
+}
+.flex-row-a-2 {
+  position: relative;
+  width: 736px;
+  height: 595px;
+  margin: 124px 0 0 569px;
+  font-size: 0px;
+  z-index: 11;
+  overflow: visible auto;
+}
+.welcome-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 327px;
+  height: 84px;
+  margin: 58px 0 0 208px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 1.95px;
+  z-index: 2;
+}
+.rectangle {
+  position: absolute;
+  width: 736px;
+  height: 595px;
+  top: 0;
+  left: 0;
+  background: #e6d2d2;
+  z-index: 1;
+  border-radius: 62px;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 433px;
+  height: 94px;
+  top: 178px;
+  left: 159px;
+  cursor: pointer;
+  background: #d9d9d9;
+  border: 1px solid #3f3131;
+  z-index: 3;
+  border-radius: 22px;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 433px;
+  height: 94px;
+  top: 178px;
+  left: 159px;
+  background: #ffffff;
+  border: 1px solid #3f3131;
+  z-index: 4;
+  border-radius: 22px;
+}
+.email-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 383px;
+  height: 40px;
+  top: 205px;
+  left: 180px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  z-index: 6;
+}
+.rectangle-button {
+  position: absolute;
+  width: 433px;
+  height: 94px;
+  top: 293px;
+  left: 159px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #3f3131;
+  z-index: 5;
+  border-radius: 22px;
+}
+.password-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 383px;
+  height: 40px;
+  top: 316px;
+  left: 180px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  z-index: 7;
+}
+.rectangle-button-5 {
+  position: absolute;
+  width: 202px;
+  height: 75px;
+  top: 427px;
+  left: 390px;
+  cursor: pointer;
+  background: #b6b6b6;
+  border: none;
+  z-index: 9;
+  border-radius: 40px;
+}
+.rectangle-button-6 {
+  position: absolute;
+  width: 202px;
+  height: 75px;
+  top: 430px;
+  left: 174px;
+  cursor: pointer;
+  background: #8c99dd;
+  border: none;
+  z-index: 8;
+  border-radius: 38px;
+}
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  top: 453px;
+  left: 227px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 10;
+}
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 103px;
+  height: 23px;
+  top: 454px;
+  left: 439px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 11;
+}
