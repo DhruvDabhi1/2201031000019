@@ -1,0 +1,300 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1400px;
+  height: 1583px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-db {
+  position: relative;
+  width: 1079px;
+  height: 98px;
+  margin: 113px 0 0 166px;
+  z-index: 2;
+}
+.balanced-diet {
+  position: absolute;
+  width: 93px;
+  height: 98px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/c78a054dc1fcadfc9c6cf1540e56b4bee9055b4f.png)
+    no-repeat center;
+  background-size: cover;
+  border-radius: 13px;
+}
+.balanced-diet-1 {
+  position: absolute;
+  width: 93px;
+  height: 98px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/c78a054dc1fcadfc9c6cf1540e56b4bee9055b4f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+  border-radius: 13px;
+}
+.food-review-blog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 328px;
+  height: 76px;
+  top: 11px;
+  left: 126px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+  z-index: 1;
+}
+.rectangle {
+  position: absolute;
+  width: 577px;
+  height: 77px;
+  top: 11px;
+  left: 502px;
+  background: url(./assets/images/23538c83-94f6-481d-acd8-4da8a26171a4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+  border-radius: 27px;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  top: 21px;
+  left: 447px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 7;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 57px;
+  height: 28px;
+  top: 22px;
+  left: 344px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 6;
+}
+.resturants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 122px;
+  height: 26px;
+  top: 24px;
+  left: 176px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 4;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 114px;
+  height: 25px;
+  top: 24px;
+  left: 30px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 3;
+}
+.newsfeed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 105px;
+  height: 24px;
+  top: 1px;
+  left: 4px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.04px;
+  z-index: 5;
+}
+.rectangle-3 {
+  position: relative;
+  width: 998px;
+  height: 473px;
+  margin: 129px 0 0 214px;
+  background: #7dd09e;
+  border: 1px solid #d9d9d9;
+  z-index: 9;
+  overflow: visible auto;
+  border-radius: 49px;
+}
+.flex-row-bad {
+  position: relative;
+  width: 275.99px;
+  height: 176.012px;
+  margin: 62px 0 0 346.931px;
+  z-index: 18;
+}
+.burger {
+  position: absolute;
+  width: 164.295px;
+  height: 176.012px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/2ecfe442-fafb-46a3-8b03-66c5d0946eb1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.burger-4 {
+  position: absolute;
+  width: 150.499px;
+  height: 173.328px;
+  top: 1.307px;
+  left: 125.491px;
+  background: url(./assets/images/f7535d70b367d20e8485ddc89985fa05a879c17d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+  border-radius: 24px;
+}
+.lorem-ipsum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 624px;
+  height: 123px;
+  margin: 17.988px 0 0 182px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1.3px;
+  z-index: 12;
+}
+.rectangle-5 {
+  position: relative;
+  width: 999px;
+  height: 481px;
+  margin: 83px 0 0 214px;
+  background: #9493b9;
+  border: 1px solid #d9d9d9;
+  z-index: 10;
+  overflow: visible auto;
+  border-radius: 49px;
+}
+.flex-row-f {
+  position: relative;
+  width: 266.337px;
+  height: 193.187px;
+  margin: 53.4px 0 0 372.017px;
+  z-index: 20;
+}
+.images {
+  position: absolute;
+  width: 155.375px;
+  height: 176.155px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/78eb57d2852637197b9bb0755cbf800b3f4533af.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+  border-radius: 28px;
+}
+.empty {
+  position: absolute;
+  width: 165.484px;
+  height: 192.54px;
+  top: 0.65px;
+  left: 100.853px;
+  background: url(./assets/images/8e40016c890190454f45af013e428933cf0486e4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+  border-radius: 29px;
+}
+.lorem-ipsum-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 619px;
+  height: 129px;
+  margin: 1.412px 0 0 196px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1.3px;
+  z-index: 13;
+}
+.rectangle-7 {
+  position: relative;
+  width: 1400.001px;
+  height: 77.8px;
