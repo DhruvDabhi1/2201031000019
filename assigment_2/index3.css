@@ -1,0 +1,337 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1875px;
+  height: 1057px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1052px;
+  height: 874px;
+  margin: 93px 0 0 412px;
+  background: #e6d2d2;
+  overflow: visible auto;
+  border-radius: 62px;
+}
+.flex-row {
+  position: relative;
+  width: 863px;
+  height: 123px;
+  margin: 88px 0 0 108px;
+  z-index: 9;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 600px;
+  height: 123px;
+  top: 0;
+  left: 263px;
+  background: #ffffff;
+  z-index: 1;
+  border-radius: 51px;
+}
+.name-john {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 433px;
+  height: 30px;
+  top: 32px;
+  left: 82px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  z-index: 13;
+}
+.name-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 169px;
+  height: 39px;
+  top: 27px;
+  left: 0;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 9;
+}
+.flex-row-bec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 863px;
+  height: 123px;
+  margin: 30px 0 0 108px;
+  z-index: 10;
+}
+.gmail-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 169px;
+  height: 39px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 10;
+}
+.rectangle-button {
+  flex-shrink: 0;
+  position: relative;
+  width: 600px;
+  height: 123px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 2;
+}
+.email-example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 433px;
+  height: 30px;
+  top: 46px;
+  left: 77px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  z-index: 14;
+}
+.flex-row-fbbb {
+  position: relative;
+  width: 863px;
+  height: 123px;
+  margin: 37px 0 0 108px;
+  z-index: 11;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 600px;
+  height: 123px;
+  top: 0;
+  left: 263px;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+  z-index: 3;
+  border-radius: 51px;
+}
+.userpassword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 433px;
+  height: 30px;
+  top: 37px;
+  left: 78px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  z-index: 15;
+}
+.password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 169px;
+  height: 39px;
+  top: 37px;
+  left: 0;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 11;
+}
+.flex-row-d {
+  position: relative;
+  width: 863px;
+  height: 123px;
+  margin: 37px 0 0 108px;
+  z-index: 12;
+}
+.rectangle-button-3 {
+  position: absolute;
+  width: 600px;
+  height: 123px;
+  top: 0;
+  left: 263px;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+  z-index: 4;
+  border-radius: 51px;
+}
+.confirm-password-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 433px;
+  height: 30px;
+  top: 38px;
+  left: 77px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 275;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  z-index: 16;
+}
+.confirm-password-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 169px;
+  height: 78px;
+  top: 33px;
+  left: 0;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 1.69px;
+  z-index: 12;
+}
+.flex-row-cb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 565px;
+  height: 84px;
+  margin: 49px 0 0 394px;
+  z-index: 6;
+}
+.rectangle-button-4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 277px;
+  height: 84px;
+  cursor: pointer;
+  background: #1f76a7;
+  border: none;
+  z-index: 5;
+  border-radius: 45px;
+}
+.register {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 121px;
+  height: 39px;
+  top: 22px;
+  left: 78px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 7;
+}
+.rectangle-5 {
+  flex-shrink: 0;
+  position: relative;
+  width: 277px;
+  height: 84px;
+  cursor: pointer;
+  background: #6db1d7;
+  border: none;
+  z-index: 6;
+  border-radius: 45px;
+}
+.login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 78px;
+  height: 39px;
+  top: 22px;
+  left: 99px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 8;
+}
